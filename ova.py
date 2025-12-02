@@ -49,7 +49,7 @@ DEFAULT_CONFIG = {
     "ArrangeWindows": True,
     "ArrangeWindowsInterval": 60,
     "SortAccounts": True,
-    "Kill Process > Ram": False,
+    "Kill Process > Ram": True,
     "Ram Usage (Each Process)": 3,
     "EnableRestart": True,
     "Restart": 1,
@@ -2350,6 +2350,7 @@ if __name__ == "__main__":
         finally:
             kill_ova_exe()
             kill_arrage_exe()
+
 
 
 
